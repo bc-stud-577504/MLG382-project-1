@@ -46,6 +46,6 @@ if __name__ == "__main__":
     preped_df = prepare_data(df)
 
     # Save prepared data
-    preped_df.to_csv("./data/prepared_data.csv")
+    preped_df.to_csv("./data/prepared_data.csv", index=False)
 
     
